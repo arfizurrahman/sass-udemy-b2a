@@ -1,5 +1,7 @@
-@import "variables";
-@import "mixins";
+@import "partials/variables";
+@import "partials/mixins";
+@include google-font("Alegreya+Sans");
+@include google-font("Titillium+Web");
 
 @include fancy-links;
 
@@ -8,10 +10,14 @@ body {
   color: $text-color;
 }
 
-h2{
+h2 {
   @include large-text;
 }
-h1, h2, h3, h4 {
+
+h1,
+h2,
+h3,
+h4 {
   font-family: $headline-font;
 }
 
@@ -39,29 +45,28 @@ a {
   @include box-shadow(2px 0px 4px #999, 1px 1px 6px $secondary-color);
   height: $header-height;
   background-color: $theme-color;
+
   #main-menu {
     li {
       display: inline;
     }
+
     a {
       color: $menu-item-color;
     }
   }
-  
-  #logo {
 
-  }
+  #logo {}
 }
 
 #main {
   width: $content-width;
   margin-left: auto;
   margin-right: auto;
-  #content {
-  }
 
-  #sidebar {
-  }
+  #content {}
+
+  #sidebar {}
 }
 
 #footer {
