@@ -20,6 +20,34 @@
   width: 12em;
 }
 
+.smith-profile {
+  background-image: url("/img/smith.png");
+}
+
+.bob-profile {
+  background-image: url("/img/bob.png");
+}
+
+.jack-profile {
+  background-image: url("/img/jack.png");
+}
+
+.tiny {
+  font-size: 8px;
+}
+
+.small {
+  font-size: 11px;
+}
+
+.medium {
+  font-size: 13px;
+}
+
+.large {
+  font-size: 18px;
+}
+
 a {
   font-style: italic;
   text-decoration: none;
